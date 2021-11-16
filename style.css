@@ -194,3 +194,32 @@ body {
   list-style: none;
   margin-right: 2rem;
 }
+
+/*ABOUT SECTION*/
+
+.infoAbout{
+  text-align: center;
+}
+
+.about-text {
+  background-color: #fff;
+}
+
+.contact {
+  color: #6f6f6f;   
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Acumin Pro';
+  color: #6f6c6b;
+}
+
+.logo-sec{
+  border: 1px solid #6f6c6b;
+  width: 70%;
+  align-self: center;
+  padding: 1rem;
+}
