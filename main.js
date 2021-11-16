@@ -1,6 +1,25 @@
 window.onload =()=>{
     const speakerSec=document.querySelector('.speakers');
 
+    const hamburger = document.querySelector('.hamBtn');
+    hamburger.addEventListener('click', () => {
+      const menu = document.querySelector('.mobile-menu');
+      menu.style.display = 'block';
+    });
+    
+    function closeMobileMenu(closer) {
+        closer.addEventListener('click', () => {
+          const menu = document.querySelector('.mobile-menu');
+          menu.style.display = 'none';
+        });
+      }
+    
+      const closeBtn = document.querySelector('.closeBtn');
+      closeMobileMenu(closeBtn);
+    
+      const item = document.querySelector('.menuPopUp');
+      closeMobileMenu(item);
+ 
   speakers=[
       {
       image:'images/geek-icon.jpg',

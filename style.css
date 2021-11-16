@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('//db.onlinewebfonts.com/c/796e2db2256ddfab47394211f41ac410?family=Acumin+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 
 .header {
   background-image: url('images/background_img.png');
@@ -149,4 +150,47 @@ body {
 .speaker-des {
   margin-top: -0.5rem;
   color: #818181;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 90%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding: 2rem;
+}
+
+.items {
+  margin-top: 1rem;
+}
+  
+.items a {
+  text-decoration: none;
+  color: #fff;
+}
+  
+.items-line {
+  width: 90%;
+  margin-right: 60px;
+  border: 1px solid #6f6c6b;
+}
+
+.menuPopUp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
 }
