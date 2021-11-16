@@ -1,13 +1,16 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('//db.onlinewebfonts.com/c/796e2db2256ddfab47394211f41ac410?family=Acumin+Pro');
 
 .header {
   background-image: url('images/background_img.png');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  margin-right: 0;
 }
 
 .hamBtn {
@@ -21,7 +24,7 @@ body {
 }
 
 .greet {
-  color:#f16f44;
+  color: #f16f44;
   margin-bottom: 1px;
 }
 
@@ -39,9 +42,8 @@ body {
 }
 
 .date {
-  font-size: 56px;
+  font-size: 45px;
   color: #6f6f6f;
-
 }
 
 .loca {
@@ -68,8 +70,7 @@ body {
 
 .program {
   display: flex;
-  background-color: rgb(61,64,71,0.7);
-  width: 90%;
+  background-color: rgb(61, 64, 71, 0.7);
   align-items: center;
   gap: 1.5rem;
   margin: 1.5rem;
@@ -84,13 +85,13 @@ body {
   padding: 1rem;
 }
 
-.programDescrip{
+.programDescrip {
   color: #fff;
-  width: 75%;
+  /*width: 75%;*/
 }
 
 .descrip {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .summitBtn {
@@ -108,6 +109,44 @@ body {
   text-align: center;
 }
 
+.speakers {
+  display: flex;
+  flex-direction: column;
+}
+
 .speaker {
   display: flex;
+  padding-left: 2rem;
+  margin: 1rem;
+  gap: 2rem;
+}
+
+.speakInfo {
+  display: flex;
+  padding-top: -1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.speakerName {
+  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+  color: #818181;
+  margin-top: -0.1rem;
+  margin-bottom: -1rem;
+}
+
+.speaker-pos {
+  color: #f16f44;
+  font-style: italic;
+}
+
+.small-line{
+  margin-top: -0.5rem;
+  width: 12%;
+}
+
+.speaker-des {
+  margin-top: -0.5rem;
+  color: #818181;
 }
