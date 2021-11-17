@@ -298,6 +298,10 @@ body {
   display: none;
 }
 
+.home-footer {
+  display: none;
+}
+
 @media only screen and  (min-width: 768px) {
   .header{
     display: none;
@@ -386,5 +390,12 @@ body {
   
   .partner {
     display: none;
+  }
+   
+  .home-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f2f2f2;   
   }
 }
