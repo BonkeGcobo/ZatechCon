@@ -398,4 +398,19 @@ body {
     padding: 1rem;
     background-color: #f2f2f2;   
   }
+
+  .DeskAbout {
+    text-align: center;
+  }
+
+  .pastPics {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .ZatechMobFoot {
+    background-color: #2E2E2E;
+    color: #fff;
+  }
 }
