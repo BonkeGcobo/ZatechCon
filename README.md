@@ -23,7 +23,9 @@ Additional description about the project and its features.
 👤 **Bonke**
 
 - GitHub: [@githubhandle](https://github.com/BonkeGcobo)
+
 - Twitter: [@twitterhandle](https://twitter.com/bonke_gcobo)
+
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bonke-gcobo-28a763125/)
 
 ## 🤝 Contributing
