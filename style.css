@@ -290,6 +290,86 @@ body {
   justify-content: space-around;
 }
 
+.DeskHead{
+  display: none;
+}
 
+@media only screen and  (min-width: 768px) {
+  .header{
+    display: none;
+  }
 
+  .DeskHead {
+    display: block;
+  }
 
+  .social_media {
+    display: flex;
+    background-color: #3E3E3E;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+
+  .top-item {
+    cursor: pointer;
+  }
+  
+
+  .desktopMenu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+  }
+
+  .itemsHead {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #414246;
+  }
+
+  .camp {
+    width: 150px;
+    height: 34px;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 2px solid #ef442d;
+    color: #ef442d;
+    cursor: pointer;
+  }
+
+  .headerDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/background_img.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .aboutZaTechDesk {
+    width: 50%;
+  }
+
+  .programs {
+    display: flex;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+}
