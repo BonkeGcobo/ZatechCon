@@ -294,6 +294,10 @@ body {
   display: none;
 }
 
+.deskPat {
+  display: none;
+}
+
 @media only screen and  (min-width: 768px) {
   .header{
     display: none;
@@ -371,5 +375,16 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .deskPat {
+    display: flex;
+    flex-direction: column;
+    background-color: #414246;
+    color: #fff;
+    text-align: center;
+  }
   
+  .partner {
+    display: none;
+  }
 }
