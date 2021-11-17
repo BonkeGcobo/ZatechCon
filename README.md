@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is https://creativecommons.org/licenses/by-nc/4.0/ licenced
+This project is [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) licenced
