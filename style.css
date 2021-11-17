@@ -88,7 +88,8 @@ body {
 
 .programDescrip {
   color: #fff;
-  /*width: 75%;*/
+
+  /* width: 75%; */
 }
 
 .descrip {
@@ -131,7 +132,7 @@ body {
 }
 
 .speakerName {
-  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #818181;
   margin-top: -0.1rem;
   margin-bottom: -1rem;
@@ -142,7 +143,7 @@ body {
   font-style: italic;
 }
 
-.small-line{
+.small-line {
   margin-top: -0.5rem;
   width: 12%;
 }
@@ -170,12 +171,12 @@ body {
 .items {
   margin-top: 1rem;
 }
-  
+
 .items a {
   text-decoration: none;
   color: #fff;
 }
-  
+
 .items-line {
   width: 90%;
   margin-right: 60px;
@@ -195,9 +196,9 @@ body {
   margin-right: 2rem;
 }
 
-/*ABOUT SECTION*/
+/* ABOUT SECTION */
 
-.infoAbout{
+.infoAbout {
   text-align: center;
 }
 
@@ -206,19 +207,19 @@ body {
 }
 
 .contact {
-  color: #6f6f6f;   
+  color: #6f6f6f;
 }
 
 .logo {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: 'Acumin Pro';
+  font-family: 'Acumin Pro', sans-serif;
   color: #6f6c6b;
   margin-bottom: 3rem;
 }
 
-.logo-sec{
+.logo-sec {
   border: 1px solid #6f6c6b;
   width: 70%;
   align-self: center;
@@ -228,11 +229,10 @@ body {
 .pastEvents {
   display: flex;
   flex-direction: column;
-  font-family: 'Acumin Pro';
+  font-family: 'Acumin Pro', sans-serif;
   color: #6f6c6b;
   align-items: center;
 }
-
 
 .past_img {
   display: flex;
@@ -290,6 +290,126 @@ body {
   justify-content: space-around;
 }
 
+.DeskHead {
+  display: none;
+}
 
+.deskPat {
+  display: none;
+}
 
+.home-footer {
+  display: none;
+}
 
+@media only screen and  (min-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .DeskHead {
+    display: block;
+  }
+
+  .social_media {
+    display: flex;
+    background-color: #3e3e3e;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+
+  .top-item {
+    cursor: pointer;
+  }
+
+  .desktopMenu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+  }
+
+  .itemsHead {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #414246;
+  }
+
+  .camp {
+    width: 150px;
+    height: 34px;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 2px solid #ef442d;
+    color: #ef442d;
+    cursor: pointer;
+  }
+
+  .headerDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/background_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutZaTechDesk {
+    width: 50%;
+  }
+
+  .programs {
+    display: flex;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .deskPat {
+    display: flex;
+    flex-direction: column;
+    background-color: #414246;
+    color: #fff;
+    text-align: center;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .home-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+
+  .DeskAbout {
+    text-align: center;
+  }
+
+  .pastPics {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .ZatechMobFoot {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+}
