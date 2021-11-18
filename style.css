@@ -74,7 +74,8 @@ body {
   align-items: center;
   margin: 1.5rem;
   padding: 1rem;
-  /*width: 25%;*/
+
+  /* width: 25%; */
 }
 
 .ProgramTitle {
@@ -117,7 +118,7 @@ body {
   display: flex;
   margin-top: 3rem;
   gap: 2rem;
-  align-items: center
+  align-items: center;
 }
 
 .speakInfo {
@@ -238,8 +239,9 @@ body {
   background-position: center;
   text-align: center;
   color: #fff;
-  /*width: 500px;
-  height: 400px;*/
+
+  /* width: 500px;
+  height: 400px; */
 }
 
 .overlay {
@@ -266,10 +268,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
-}
-
-body{
-  margin: 0%;
 }
 
 .ontop {
