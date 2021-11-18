@@ -42,7 +42,7 @@ body {
 }
 
 .date {
-  font-size: 45px;
+  font-size: 25px;
   color: #6f6f6f;
 }
 
@@ -72,10 +72,10 @@ body {
   display: flex;
   background-color: rgb(61, 64, 71, 0.7);
   align-items: center;
-  gap: 1.5rem;
   margin: 1.5rem;
   padding: 1rem;
-  width: 25%;
+
+  /* width: 25%; */
 }
 
 .ProgramTitle {
@@ -109,16 +109,16 @@ body {
   text-align: center;
 }
 
-.speakers {
+.speaker-sec {
   display: flex;
   flex-direction: column;
 }
 
 .speaker {
   display: flex;
-  padding-left: 2rem;
-  margin: 1rem;
+  margin-top: 3rem;
   gap: 2rem;
+  align-items: center;
 }
 
 .speakInfo {
@@ -126,7 +126,6 @@ body {
   padding-top: -1rem;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 2px;
 }
 
 .speakerName {
@@ -238,11 +237,11 @@ body {
   background-image: url('images/PastEvs.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
   text-align: center;
   color: #fff;
-  width: 500px;
-  height: 400px;
+
+  /* width: 500px;
+  height: 400px; */
 }
 
 .overlay {
