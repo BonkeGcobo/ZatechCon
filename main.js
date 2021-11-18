@@ -64,7 +64,7 @@ window.onload = () => {
     const EachSpeaker = `
     <div class="speaker speaker-1">
     <div class="speaker Speakerimg-1">
-      <img src="${item.image}" width="150px" height="150px">
+      <img src="${item.image}" width="100px" height="100px">
     </div>
 
     <div class="speakInfo">
