@@ -4,7 +4,7 @@
 
 > Za Tech Website, a tech community in South Africa.
 
-![screenshot](../images/Screenshot(34).png)
+![screenshot](ScreenShot.png)
 
 Additional description about the project and its features.
 
