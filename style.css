@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('//db.onlinewebfonts.com/c/796e2db2256ddfab47394211f41ac410?family=Acumin+Pro');
-@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 .header {
   background-image: url('images/background_img.png');
@@ -25,14 +25,14 @@ body {
 }
 
 .greet {
-  color: #f16f44;
+  color: #ec5242;
   margin-bottom: 1px;
 }
 
 .ZaTech {
   font-size: 95px;
   margin-top: -4px;
-  color: #fc1304;
+  color:  #ec5242;
 }
 
 .aboutZaTech {
@@ -56,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("images/pattern_reps.png");
-  background-color: #282b34;
+  background-color:  #272a31;;
 }
 
 .main-title {
@@ -65,7 +65,7 @@ body {
 }
 
 .line {
-  border: 1px solid #953f37;
+  border: 1px solid  #ec5242;;
   width: 10%;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .ProgramTitle {
-  color: #fb5138;
+  color:  #ec5242;;
 }
 
 .title {
@@ -88,8 +88,6 @@ body {
 
 .programDescrip {
   color: #fff;
-
-  /* width: 75%; */
 }
 
 .descrip {
@@ -101,7 +99,7 @@ body {
   width: 50%;
   align-self: center;
   margin-bottom: 1rem;
-  background-color: #f16f44;
+  background-color:  #ec5242;;
   border-style: none;
   height: 70px;
   font-size: 25px;
@@ -132,14 +130,14 @@ body {
 }
 
 .speakerName {
-  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #818181;
   margin-top: -0.1rem;
   margin-bottom: -1rem;
 }
 
 .speaker-pos {
-  color: #f16f44;
+  color:  #ec5242;
   font-style: italic;
 }
 
@@ -155,7 +153,7 @@ body {
 
 .mobile-menu {
   display: none;
-  background-color: #3c3a39;
+  background-color:  #272a31;
   width: 90%;
   margin-top: 0;
   height: 100%;
@@ -188,15 +186,13 @@ body {
   flex-direction: column;
   color: #fff;
   margin-top: 3rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   list-style: none;
   margin-right: 2rem;
 }
-
-/* ABOUT SECTION */
 
 .infoAbout {
   text-align: center;
@@ -214,7 +210,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: 'Acumin Pro', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #6f6c6b;
   margin-bottom: 3rem;
 }
@@ -229,7 +225,7 @@ body {
 .pastEvents {
   display: flex;
   flex-direction: column;
-  font-family: 'Acumin Pro', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #6f6c6b;
   align-items: center;
 }
@@ -262,9 +258,9 @@ body {
 .partner {
   margin-top: 1rem;
   padding-top: 1rem;
-  font-family: 'Acumin Pro', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
-  background-color: #414246;
+  background-color:  #272a31;
   color: #fff;
 }
 
@@ -347,8 +343,8 @@ body {
     height: 34px;
     margin-top: 12px;
     background-color: #fff;
-    border: 2px solid #ef442d;
-    color: #ef442d;
+    border: 2px solid  #ec5242;
+    color:  #ec5242;
     cursor: pointer;
   }
 
@@ -359,6 +355,10 @@ body {
     background-image: url('images/background_img.png');
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .aboutDesk {
+    text-align: center;
   }
 
   .aboutZaTechDesk {
@@ -398,10 +398,6 @@ body {
     background-color: #f2f2f2;
   }
 
-  .DeskAbout {
-    text-align: center;
-  }
-
   .pastPics {
     display: flex;
     gap: 2rem;
@@ -409,7 +405,18 @@ body {
   }
 
   .ZatechMobFoot {
-    background-color: #2e2e2e;
+    background-color: #271a31;
     color: #fff;
+  }
+
+  .deskTop{
+    display: flex;
+    gap: 1px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin-left: 200px;
   }
 }
