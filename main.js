@@ -45,6 +45,19 @@ window.onload = () => {
       speakerPosition: 'Ceo of Yoco',
       speakerDes: 'Yoco is a point-of-sale provider form small business in Africa',
     },
+    {
+      image: 'images/ElonMusk.jpg',
+      speakerName: 'Elon Musk',
+      speakerPosition: 'Ceo of Spacex',
+      speakerDes: 'Ceo of Spacex and Tesla',
+    },
+
+    {
+      image: 'images/Fleeker.jpg',
+      speakerName: 'Asonele Gevenga',
+      speakerPosition: 'Ceo of fleeker Finance',
+      speakerDes: 'Founder and Ceo of Fleeker',
+    }
   ];
 
   speakers.forEach((item) => {
