@@ -57,7 +57,7 @@ window.onload = () => {
       speakerName: 'Asonele Gevenga',
       speakerPosition: 'Ceo of fleeker Finance',
       speakerDes: 'Founder and Ceo of Fleeker',
-    }
+    },
   ];
 
   speakers.forEach((item) => {

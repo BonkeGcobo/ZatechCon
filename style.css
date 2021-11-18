@@ -1,7 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
 .header {
   background-image: url('images/background_img.png');
   background-repeat: no-repeat;
@@ -32,7 +31,7 @@ body {
 .ZaTech {
   font-size: 95px;
   margin-top: -4px;
-  color:  #ec5242;
+  color: #ec5242;
 }
 
 .aboutZaTech {
@@ -56,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("images/pattern_reps.png");
-  background-color:  #272a31;;
+  background-color: #272a31;
 }
 
 .main-title {
@@ -65,7 +64,7 @@ body {
 }
 
 .line {
-  border: 1px solid  #ec5242;;
+  border: 1px solid  #ec5242;
   width: 10%;
 }
 
@@ -79,7 +78,7 @@ body {
 }
 
 .ProgramTitle {
-  color:  #ec5242;;
+  color: #ec5242;
 }
 
 .title {
@@ -99,7 +98,7 @@ body {
   width: 50%;
   align-self: center;
   margin-bottom: 1rem;
-  background-color:  #ec5242;;
+  background-color: #ec5242;
   border-style: none;
   height: 70px;
   font-size: 25px;
@@ -137,7 +136,7 @@ body {
 }
 
 .speaker-pos {
-  color:  #ec5242;
+  color: #ec5242;
   font-style: italic;
 }
 
@@ -153,7 +152,7 @@ body {
 
 .mobile-menu {
   display: none;
-  background-color:  #272a31;
+  background-color: #272a31;
   width: 90%;
   margin-top: 0;
   height: 100%;
@@ -260,7 +259,7 @@ body {
   padding-top: 1rem;
   font-family: "Lato", sans-serif;
   text-align: center;
-  background-color:  #272a31;
+  background-color: #272a31;
   color: #fff;
 }
 
@@ -344,7 +343,7 @@ body {
     margin-top: 12px;
     background-color: #fff;
     border: 2px solid  #ec5242;
-    color:  #ec5242;
+    color: #ec5242;
     cursor: pointer;
   }
 
@@ -409,7 +408,7 @@ body {
     color: #fff;
   }
 
-  .deskTop{
+  .deskTop {
     display: flex;
     gap: 1px;
     width: 70%;
@@ -417,6 +416,6 @@ body {
     align-items: center;
     align-content: center;
     padding: 0;
-    margin-left: 200px;
+    margin-left: 210px;
   }
 }
