@@ -75,6 +75,7 @@ body {
   gap: 1.5rem;
   margin: 1.5rem;
   padding: 1rem;
+  width: 25%;
 }
 
 .ProgramTitle {
@@ -324,6 +325,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+    padding-left: 4rem;
   }
 
   .itemsHead {
@@ -417,5 +419,10 @@ body {
     align-content: center;
     padding: 0;
     margin-left: 200px;
+  }
+
+  .items-nav {
+    margin-left: 4rem;
+    width: 58%;
   }
 }
