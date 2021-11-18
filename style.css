@@ -1,0 +1,415 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('//db.onlinewebfonts.com/c/796e2db2256ddfab47394211f41ac410?family=Acumin+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+.header {
+  background-image: url('images/background_img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  margin-right: 0;
+}
+
+.hamBtn {
+  padding: 1rem;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.greet {
+  color: #f16f44;
+  margin-bottom: 1px;
+}
+
+.ZaTech {
+  font-size: 95px;
+  margin-top: -4px;
+  color: #fc1304;
+}
+
+.aboutZaTech {
+  font-size: 20px;
+  color: #6f6f6f;
+  border: 5px solid #fff;
+  padding: 2rem;
+}
+
+.date {
+  font-size: 45px;
+  color: #6f6f6f;
+}
+
+.loca {
+  margin-top: -10px;
+  color: #6f6f6f;
+}
+
+.mainPro {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/pattern_reps.png");
+  background-color: #282b34;
+}
+
+.main-title {
+  color: #fff;
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #953f37;
+  width: 10%;
+}
+
+.program {
+  display: flex;
+  background-color: rgb(61, 64, 71, 0.7);
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+.ProgramTitle {
+  color: #fb5138;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.programDescrip {
+  color: #fff;
+
+  /* width: 75%; */
+}
+
+.descrip {
+  margin-left: 1rem;
+}
+
+.summitBtn {
+  color: #fff;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 1rem;
+  background-color: #f16f44;
+  border-style: none;
+  height: 70px;
+  font-size: 25px;
+}
+
+.feature-title {
+  text-align: center;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  display: flex;
+  padding-left: 2rem;
+  margin: 1rem;
+  gap: 2rem;
+}
+
+.speakInfo {
+  display: flex;
+  padding-top: -1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.speakerName {
+  font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #818181;
+  margin-top: -0.1rem;
+  margin-bottom: -1rem;
+}
+
+.speaker-pos {
+  color: #f16f44;
+  font-style: italic;
+}
+
+.small-line {
+  margin-top: -0.5rem;
+  width: 12%;
+}
+
+.speaker-des {
+  margin-top: -0.5rem;
+  color: #818181;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #3c3a39;
+  width: 90%;
+  margin-top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding: 2rem;
+}
+
+.items {
+  margin-top: 1rem;
+}
+
+.items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.items-line {
+  width: 90%;
+  margin-right: 60px;
+  border: 1px solid #6f6c6b;
+}
+
+.menuPopUp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+/* ABOUT SECTION */
+
+.infoAbout {
+  text-align: center;
+}
+
+.about-text {
+  background-color: #fff;
+}
+
+.contact {
+  color: #6f6f6f;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Acumin Pro', sans-serif;
+  color: #6f6c6b;
+  margin-bottom: 3rem;
+}
+
+.logo-sec {
+  border: 1px solid #6f6c6b;
+  width: 70%;
+  align-self: center;
+  padding: 1rem;
+}
+
+.pastEvents {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Acumin Pro', sans-serif;
+  color: #6f6c6b;
+  align-items: center;
+}
+
+.past_img {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('images/PastEvs.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+  width: 500px;
+  height: 400px;
+}
+
+.overlay {
+  background-color: rgb(255, 79, 56, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.Event1 {
+  color: #fff;
+}
+
+.partner {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-family: 'Acumin Pro', sans-serif;
+  text-align: center;
+  background-color: #414246;
+  color: #fff;
+}
+
+.companies {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.ontop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom {
+  margin-top: 2rem;
+}
+
+.ZatechMobFoot {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+.DeskHead {
+  display: none;
+}
+
+.deskPat {
+  display: none;
+}
+
+.home-footer {
+  display: none;
+}
+
+@media only screen and  (min-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .DeskHead {
+    display: block;
+  }
+
+  .social_media {
+    display: flex;
+    background-color: #3e3e3e;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+
+  .top-item {
+    cursor: pointer;
+  }
+
+  .desktopMenu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+  }
+
+  .itemsHead {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #414246;
+  }
+
+  .camp {
+    width: 150px;
+    height: 34px;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 2px solid #ef442d;
+    color: #ef442d;
+    cursor: pointer;
+  }
+
+  .headerDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/background_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutZaTechDesk {
+    width: 50%;
+  }
+
+  .programs {
+    display: flex;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .deskPat {
+    display: flex;
+    flex-direction: column;
+    background-color: #414246;
+    color: #fff;
+    text-align: center;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .home-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+
+  .DeskAbout {
+    text-align: center;
+  }
+
+  .pastPics {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .ZatechMobFoot {
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+}

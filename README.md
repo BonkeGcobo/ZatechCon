@@ -1,59 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Za-Tech
 
-> One paragraph statement about the project.
+> Za Tech Website, a tech community in South Africa.
 
-![screenshot](./app_screenshot.png)
+![screenshot](ScreenShot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS and JavaScript
+- GitHub, Linters
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://bonkegcobo.github.io/ZatechCon/)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Bonke**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/BonkeGcobo)
 
-👤 **Author2**
+- Twitter: [@twitterhandle](https://twitter.com/bonke_gcobo)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bonke-gcobo-28a763125/)
 
 ## 🤝 Contributing
 
@@ -67,10 +40,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The design belongs Cindy Shin
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) licenced
